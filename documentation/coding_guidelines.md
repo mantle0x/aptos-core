@@ -267,7 +267,7 @@ impl Foo {
 
 #[cfg(test)]
 mod tests {
-  #test
+  #[test]
   fn verify_magic_number() {
     assert_eq!(Foo::magic_number(), 42);
   }
